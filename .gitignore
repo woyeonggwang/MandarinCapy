@@ -1,0 +1,63 @@
+# ===== Unity 프로젝트 (00Project/MandarinCapy) =====
+/00Project/MandarinCapy/[Ll]ibrary/
+/00Project/MandarinCapy/[Tt]emp/
+/00Project/MandarinCapy/[Oo]bj/
+/00Project/MandarinCapy/[Bb]uild/
+/00Project/MandarinCapy/[Bb]uilds/
+/00Project/MandarinCapy/[Ll]ogs/
+/00Project/MandarinCapy/[Uu]ser[Ss]ettings/
+/00Project/MandarinCapy/[Mm]emoryCaptures/
+/00Project/MandarinCapy/[Rr]ecordings/
+
+# Asset Store 도구, 플러그인 생성물
+/00Project/MandarinCapy/[Aa]ssets/AssetStoreTools*
+/00Project/MandarinCapy/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# IDE / 솔루션 파일 (Unity가 자동 생성)
+.vs/
+.vscode/
+.idea/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity 메타 데이터 중 불필요한 것
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# 크래시 리포트
+sysinfo.txt
+
+# 빌드 결과물
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# ===== 빌드 출력 폴더 (제출용 ZIP은 Git에 넣지 않음) =====
+/01Build/
+
+# ===== Blender 자동 백업 =====
+*.blend1
+*.blend2
+
+# ===== OS =====
+Thumbs.db
+Desktop.ini
+.DS_Store
