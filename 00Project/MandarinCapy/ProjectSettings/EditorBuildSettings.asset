@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/00Scene/Game.unity
-    guid: 56ec4a04654b0bc438871a2a900aeece
+    path: Assets/00Scene/Downhill.unity
+    guid: cf98cb5fa4f4f18468970780f31c99cb
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
