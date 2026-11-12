@@ -463,6 +463,7 @@
 - Claude Code CLI, Codex 사용 여부: 확인 필요 (첫 프로토타입에는 불필요)
 - Unity MCP 패키지가 `#main` 브랜치를 따라가므로, 제출 전 갱신하지 않도록 주의 필요
 - Input System 전용 설정에서 한글 IME(Input.compositionString)가 에디터에선 오류 없이 동작함. Windows 빌드에서도 되는지 확인 필요
-- 제출 ZIP에 Noto Sans KR의 OFL 라이선스 문서(OFL.txt)를 함께 넣어야 함 — 문서 준비 필요 (인터넷 연결된 PC에서 받아야 함)
+- Noto Sans KR 라이선스 문서: `Assets/02Resources/01Asset/Fonts/OFL.txt` 추가(2026-11-12, SIL OFL 1.1 본문 + 폰트 메타데이터의 저작권 표기). 배포 ZIP에도 넣을 것.
+- 저장소 공개 전 점검(2026-11-12): 비밀번호·키 없음, 빌드·캐시 폴더는 .gitignore로 제외. 테스트 스크린샷(`Assets/Screenshots`) git rm, 다른 프로젝트 아이디어 문구는 이 파일에서 삭제. 남은 결정: 커밋 작성자 이메일(전역 git 설정 `user.email`에서 들어감)과 이미 커밋된 기록 속 예전 문구는 기록을 다시 써야 지워짐 — 사용자 결정 필요. 이미지(2D·웹툰)는 모두 사용자가 GPT로 생성(사용자 확인).
 - 회사명(companyName)이 DefaultCompany 그대로 — 바꾸면 랭킹 파일 경로도 바뀜. 바꿀지 확인 필요
 - 2D 진행이지만 렌더러는 템플릿 기본 URP Universal Renderer(PC_Renderer) 그대로임. 스프라이트 표시는 정상 확인. 2D Renderer로 바꿀지는 미정
